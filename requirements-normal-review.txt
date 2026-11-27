@@ -1,0 +1,5 @@
+datasets
+huggingface-hub>=1.5,<2
+Pillow
+ipywidgets
+notebook

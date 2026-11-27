@@ -1,0 +1,13 @@
+-r requirements-normal-review.txt
+
+streamlit>=1.57,<2
+torch==2.11.0
+torchvision==0.26.0
+opencv-python>=4.6.0
+ultralytics==8.3.168
+huggingface-hub>=1.5,<2
+Pillow
+numpy
+pandas
+scikit-learn
+pytest

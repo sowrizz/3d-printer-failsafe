@@ -1,0 +1,22 @@
+# Local Python environment
+.venv/
+venv/
+
+# Python and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Notebook-generated files
+.ipynb_checkpoints/
+
+# Local review data and nested legacy repository
+normal_candidates_review/
+3d printer failsafw/
+archive/
+
+# Training images are large and not needed to run the packaged app.
+# Remove this line only when intentionally backing up the full dataset.
+dataset/
